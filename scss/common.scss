@@ -1,0 +1,37 @@
+@import 'normalize';
+@import 'config';
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #e4e4e46e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 3em;
+}
